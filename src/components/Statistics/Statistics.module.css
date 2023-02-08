@@ -1,0 +1,11 @@
+.listWrap{
+display: block;
+text-align: center;
+}
+
+.listItem{
+    font-size: 20px;
+}
+.listItem:not(:last-child) {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+.btnWrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn {
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #ffda79;
+  color: #2c2c54;
+}
+.btn::first-letter {
+  text-transform: uppercase;
+}
+.btn:active {
+  background-color: #ffb142;
+}
