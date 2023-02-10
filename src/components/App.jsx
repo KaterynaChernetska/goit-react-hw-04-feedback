@@ -46,9 +46,7 @@ export class App extends Component {
           </FeedbackOptions>
         </Section>
         <Section title="Statistics">
-          {this.state.good > 0 ||
-          this.state.neutral > 0 ||
-          this.state.bad > 0 ? (
+          { this.countTotalFeedback() ? (
             <Statistics
               good={this.state.good}
               neutral={this.state.neutral}
